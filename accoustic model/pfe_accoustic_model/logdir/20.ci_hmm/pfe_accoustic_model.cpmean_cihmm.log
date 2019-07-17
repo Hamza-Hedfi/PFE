@@ -1,0 +1,29 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-cpopsfn		C:/Users/hhedf/source/repos/pfe_accoustic_model/model_architecture/pfe_accoustic_model.cpmeanvar
+-example	no	no
+-help		no	no
+-ifullgaufn		
+-igaufn			C:\Users\hhedf\source\repos\pfe_accoustic_model\model_parameters\pfe_accoustic_model.ci_cont_flatinitial\globalmean
+-imixwfn		
+-itmatfn		
+-ncbout			9
+-nmixwout		0
+-ntmatout		0
+-ofullgaufn		
+-ogaufn			C:\Users\hhedf\source\repos\pfe_accoustic_model\model_parameters\pfe_accoustic_model.ci_cont_flatinitial\means
+-omixwfn		
+-otmatfn		
+
+INFO: s3gau_io.c(169): Read C:\Users\hhedf\source\repos\pfe_accoustic_model\model_parameters\pfe_accoustic_model.ci_cont_flatinitial\globalmean [1x1x1 array]
+INFO: s3gau_io.c(228): Wrote C:\Users\hhedf\source\repos\pfe_accoustic_model\model_parameters\pfe_accoustic_model.ci_cont_flatinitial\means [9x1x1 array]
+gau 0 <= 0
+gau 1 <= 0
+gau 2 <= 0
+gau 3 <= 0
+gau 4 <= 0
+gau 5 <= 0
+gau 6 <= 0
+gau 7 <= 0
+gau 8 <= 0
+Thu Apr 18 14:57:38 2019

@@ -1,0 +1,62 @@
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-alpha			0.97		9.700000e-01
+-argfile				
+-blocksize		2048		2048
+-build_outdirs		yes		yes
+-c					C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model_test.fileids
+-cep2spec		no		no
+-di					C:/Users/hhedf/source/repos/pfe_accoustic_model/wav
+-dither			no		no
+-do					C:/Users/hhedf/source/repos/pfe_accoustic_model/feat
+-doublebw		no		no
+-ei					wav
+-eo					mfc
+-example		no		no
+-frate			100		100
+-help			no		no
+-i					
+-input_endian		little		little
+-lifter			0		22
+-logspec		no		no
+-lowerf			133.33334	1.300000e+02
+-mach_endian		little		little
+-mswav			no		yes
+-ncep			13		13
+-nchans			1		1
+-nfft			512		512
+-nfilt			40		25
+-nist			no		no
+-npart			0		1
+-nskip			0		0
+-o					
+-ofmt			sphinx		sphinx
+-part			0		1
+-raw			no		no
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-runlen			-1		-1
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-smoothspec		no		no
+-spec2cep		no		no
+-sph2pipe		no		no
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+03
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		3.0		3.000000e+00
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-whichchan		0		0
+-wlen			0.025625	2.562500e-02
+
+INFO: sphinx_fe.c(971): Processing all remaining utterances at position 0
+INFO: sphinx_fe.c(791): Converting C:/Users/hhedf/source/repos/pfe_accoustic_model/wav/speaker_1/assoulahfatou.wav to C:/Users/hhedf/source/repos/pfe_accoustic_model/feat/speaker_1/assoulahfatou.mfc
+INFO: sphinx_fe.c(791): Converting C:/Users/hhedf/source/repos/pfe_accoustic_model/wav/speaker_1/athoulahfatou.wav to C:/Users/hhedf/source/repos/pfe_accoustic_model/feat/speaker_1/athoulahfatou.mfc
+Thu Apr 18 14:57:36 2019

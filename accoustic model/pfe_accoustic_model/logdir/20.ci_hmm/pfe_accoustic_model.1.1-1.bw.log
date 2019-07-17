@@ -1,0 +1,121 @@
+INFO: main.c(229): Compiled on Apr 18 2019 at 03:35:54
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-2passvar	no		no
+-abeam		1e-100		1.000000e-90
+-accumdir			C:/Users/hhedf/source/repos/pfe_accoustic_model/bwaccumdir/pfe_accoustic_model_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-bbeam		1e-100		1.000000e-10
+-cb2mllrfn	.1cls.		.1cls.
+-cepdir				C:/Users/hhedf/source/repos/pfe_accoustic_model/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-ckptintv			0
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model_train.fileids
+-diagfull	no		no
+-dictfn				C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model.dic
+-example	no		no
+-fdictfn			C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model.filler
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-hmmdir				
+-latdir				
+-latext				
+-lda				
+-ldadim		0		0
+-lsnfn				C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model_train.transcription
+-lw		11.5		1.150000e+01
+-maxuttlen	0		0
+-meanfn				C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/means
+-meanreest	yes		yes
+-mixwfn				C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/mixture_weights
+-mixwreest	yes		yes
+-mllrmat			
+-mmie		no		no
+-mmie_type	rand		rand
+-moddeffn			C:/Users/hhedf/source/repos/pfe_accoustic_model/model_architecture/pfe_accoustic_model.ci.mdef
+-mwfloor	0.00001		1.000000e-08
+-npart				1
+-nskip				0
+-outphsegdir			
+-outputfullpath	no		no
+-part				1
+-pdumpdir			
+-phsegdir			
+-phsegext	phseg		phseg
+-runlen		-1		-1
+-sentdir			
+-sentext	sent		sent
+-spthresh	0.0		0.000000e+00
+-svspec				
+-timing		yes		no
+-tmatfn				C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/transition_matrices
+-tmatreest	yes		yes
+-topn		4		1
+-tpfloor	0.0001		1.000000e-04
+-ts2cbfn			.cont.
+-varfloor	0.00001		1.000000e-04
+-varfn				C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/variances
+-varnorm	no		no
+-varreest	yes		yes
+-viterbi	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: main.c(318): Reading C:/Users/hhedf/source/repos/pfe_accoustic_model/model_architecture/pfe_accoustic_model.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 3 total models defined (3 base, 0 tri)
+INFO: model_def_io.c(575): 12 total states
+INFO: model_def_io.c(576): 9 total tied states
+INFO: model_def_io.c(577): 9 total tied CI states
+INFO: model_def_io.c(578): 3 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(117): Read C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/mixture_weights [9x1x1 array]
+INFO: s3tmat_io.c(118): Read C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/transition_matrices [3x3x4 array]
+INFO: mod_inv.c(301): inserting tprob floor 1.000000e-04 and renormalizing
+INFO: s3gau_io.c(169): Read C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/means [9x1x1 array]
+INFO: s3gau_io.c(169): Read C:/Users/hhedf/source/repos/pfe_accoustic_model/model_parameters/pfe_accoustic_model.ci_cont_flatinitial/variances [9x1x1 array]
+INFO: gauden.c(176): 9 total mgau
+INFO: gauden.c(150): 1 feature streams (|0|=39 )
+INFO: gauden.c(187): 1 total densities
+INFO: gauden.c(90): min_var=1.000000e-04
+INFO: gauden.c(165): compute 1 densities/frame
+INFO: main.c(431): Will reestimate mixing weights.
+INFO: main.c(433): Will reestimate means.
+INFO: main.c(435): Will reestimate variances.
+INFO: main.c(443): Will reestimate transition matrices
+INFO: main.c(456): Reading main dictionary: C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model.dic
+INFO: lexicon.c(221): 2 entries added from C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model.dic
+INFO: main.c(466): Reading filler dictionary: C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model.filler
+INFO: lexicon.c(221): 3 entries added from C:/Users/hhedf/source/repos/pfe_accoustic_model/etc/pfe_accoustic_model.filler
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: main.c(665): Reestimation: Baum-Welch
+INFO: cmn.c(133): CMN: 48.28 -9.78  1.55 -0.56  3.18 11.52 -6.42 -6.60  1.21  8.39  0.99  4.57  1.71 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0             assoulahfatou  215    0INFO: cvt2triphone.c(199): no multiphones defined, no conversion done
+    12 11  8 16 1.635203e-12 -1.562280e+02 -3.358902e+04
+INFO: cmn.c(133): CMN: 51.56 -6.49 -3.58  1.36  5.48  4.22 -11.57 -8.60  4.63 11.71  2.71 -0.35  0.89 
+utt>     1             athoulahfatou  213    0    12 11  8 16 1.773933e-12 -1.568285e+02 -3.340448e+04
+overall> stats 428 (-0) -1.565269e+02 -6.699350e+04
+
+INFO: s3mixw_io.c(233): Wrote C:/Users/hhedf/source/repos/pfe_accoustic_model/bwaccumdir/pfe_accoustic_model_buff_1/mixw_counts [9x1x1 array]
+INFO: s3tmat_io.c(176): Wrote C:/Users/hhedf/source/repos/pfe_accoustic_model/bwaccumdir/pfe_accoustic_model_buff_1/tmat_counts [3x3x4 array]
+INFO: s3gau_io.c(485): Wrote C:/Users/hhedf/source/repos/pfe_accoustic_model/bwaccumdir/pfe_accoustic_model_buff_1/gauden_counts with means with vars [9x1x1 vector arrays]
+INFO: main.c(999): Counts saved to C:/Users/hhedf/source/repos/pfe_accoustic_model/bwaccumdir/pfe_accoustic_model_buff_1
+Thu Apr 18 14:57:38 2019

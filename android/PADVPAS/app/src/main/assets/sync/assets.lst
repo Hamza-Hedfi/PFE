@@ -1,0 +1,9 @@
+pfe_accoustic_model.dict
+pfe_accoustic_model.lm.DMP
+pfe_accoustic_model/feat.params
+pfe_accoustic_model/mdef
+pfe_accoustic_model/means
+pfe_accoustic_model/mixture_weights
+pfe_accoustic_model/noisedict
+pfe_accoustic_model/transition_matrices
+pfe_accoustic_model/variances
